@@ -1,640 +1,596 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>DENTAL — Клініка цифрової стоматології</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header" id="home">
+        <nav class="nav">
+          <a class="nav__brand" href="#home" aria-label="Dental">
+            <span class="nav__logo">D</span>
+            <span class="nav__text">Dental</span>
+          </a>
+          <button class="nav__toggle" aria-label="Відкрити меню">
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav__links" role="navigation">
+            <a href="#home">Головна</a>
+            <a href="#about">Про клініку</a>
+            <a href="#services">Послуги</a>
+            <a href="#pricing">Калькулятор</a>
+            <a href="#technology">Технології</a>
+            <a href="#testimonials">Відгуки</a>
+            <a href="#contact" class="nav__cta">Записатися</a>
+          </div>
+        </nav>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tajam likhovskyi dima</title>
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <!-- icons font -->
-  <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
-  <!-- css -->
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <!-- Навігаціонна панель -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/2-layers.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#header"><strong>Home</strong></a>
-            <a class="nav-item nav-link" href="#our-story"><strong>About</strong></a>
-            <a class="nav-item nav-link" href="#expertise"><strong>Expertise</strong></a>
-            <a class="nav-item nav-link" href="#team"><strong>Teams</strong></a>
-            <a class="nav-item nav-link" href="#our-works"><strong>Works</strong></a>
-            <a class="nav-item nav-link" href="#testimonials"><strong>People Say</strong></a>
-            <a class="nav-item nav-link" href="#contact"><strong>Contact</strong></a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Slider -->
-    <div class="slider">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="content-center">
-              <h2>We Are Awesome Creative Agency</h2>
-              <div class="line"></div>
-              <p>This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                Duis sed odio sit amet nibh vulputate cursus
-                a sit amet mauris. Morbi accumsan ipsum velit.</p>
-              <button type="button" class="btn btn-outline-primary mx-auto">Learn More</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <h2>We Are Awesome Creative Agency</h2>
-              <div class="line"></div>
-              <p>This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                Duis sed odio sit amet nibh vulputate cursus
-                a sit amet mauris. Morbi accumsan ipsum velit.</p>
-              <button type="button" class="btn btn-outline-primary mx-auto">Learn More</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <h2>We Are Awesome Creative Agency</h2>
-              <div class="line"></div>
-              <p>This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                Duis sed odio sit amet nibh vulputate cursus
-                a sit amet mauris. Morbi accumsan ipsum velit.</p>
-              <button type="button" class="btn btn-outline-primary mx-auto">Learn More</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <h2>We Are Awesome Creative Agency</h2>
-              <div class="line"></div>
-              <p>This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                Duis sed odio sit amet nibh vulputate cursus
-                a sit amet mauris. Morbi accumsan ipsum velit.</p>
-              <button type="button" class="btn btn-outline-primary mx-auto">Learn More</button>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Content -->
-  <content class="content" id="content">
-    <!-- our story -->
-    <section class="our-story" id="our-story">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4 col-xs-12 our-story__img">
-            <img src="img/Replace_with_your_logo.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-sm-7 col-xs-12 ml-sm-auto">
-            <div class="our-story__block-flex">
-              <h1 class="mb-3">OUR STORY</h1>
-              <p>This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                lorem quis bibendum auctor, nisi elit consequat ipsum,
-                nec sagittis sem nibh id elit. Duis sed odio sit
-                amet nibh vulputate cursus
-                <br><br>
-                Morbi accumsan ipsum velit. Nam nec tellus a odio
-                tincidunt auctor a ornare odio. Sed non mauris
-                vitae erat consequat auctor eu in elit.
-                Class aptent taciti sociosqu ad litora torquent
-                per conubia nostra, per inceptos himenaeos.</p>
-              <button type="button" class="btn btn-outline-primary mx-auto mt-4">Learn More</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- our-story-video -->
-    <section class="our-story-video d-flex align-items-center" id="our-story-video">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 d-flex justify-content-center">
-            <!-- видео -->
-            <div class="our-story-video__block-flex" data-toggle="modal" data-target=".bd-example-modal-lg">
-              <div class="our-story-video__block-img mb-4">
-                <img src="img/play.png" alt="Play" class="img-fluid">
-              </div>
-              <h3><strong>Watch our story</strong></h3>
-            </div>
-            <!-- модальное окно -->
-            <div class="modal fade bd-example-modal-lg mt-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8CdcCD5V-d8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- expertise -->
-    <section class="expertise" id="expertise">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 d-flex flex-column align-items-center">
-            <h1>Expertise</h1>
-            <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-            <div class="exp-line"></div>
-          </div>
-        </div>
-        <!-- cards top -->
-        <div class="row mt-5 line-bottom">
-          <div class="col-12">
-            <div class="card-group">
-              <!-- card-1 -->
-              <div class="col-sm-4 col-xs-12 pr-sm-0 line-right">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-sm-3 pb-md-3 pb-lg-5 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/11.png" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>WEB DESIGN & DEVELOPMENT</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- card-2 -->
-              <div class="col-sm-4 col-xs-12 pr-sm-0 line-right">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-sm-3 pb-md-3 pb-lg-5 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/12.png" height="50px" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>BRANDING IDENTITY</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- card-3 -->
-              <div class="col-sm-4 col-xs-12 pl-sm-0">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-sm-3 pb-md-3 pb-lg-5 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/13.png" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>BRANDING IDENTITY</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- cards bottom -->
-        <div class="row">
-          <div class="col-12">
-            <div class="card-group">
-              <!-- card-4 -->
-              <div class="col-sm-4 col-xs-12 pr-sm-0 line-right">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-xs-3 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/14.png" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>SEARCH ENGINE OPTIMIZATION</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- card-5 -->
-              <div class="col-sm-4 col-xs-12 pr-sm-0 line-right">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-xs-3 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/15.png" height="50px" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>GAME DEVELOPMENT</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- card-6 -->
-              <div class="col-sm-4 col-xs-12 pl-sm-0">
-                <div class="card d-flex flex-column align-items-center pt-4 pb-xs-3 border-0">
-                  <div class="block-img mb-4">
-                    <img src="img/16.png" height="50px" alt="">
-                  </div>
-                  <div class="card-content">
-                    <div class="card-title mb-3"> <strong>MADE WITH LOVE</strong> </div>
-                    <p class="mx-2">This is Photoshop's version of Lorem Ipsum.
-                      Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- team -->
-    <section class="team" id="team">
-      <div class="container">
-        <!-- title -->
-        <div class="row">
-          <div class="col-12">
-            <div class="col-12 d-flex flex-column align-items-center">
-              <h1>MEET OUR AMAZING TEAM</h1>
-              <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-              <div class="exp-line mb-5"></div>
-            </div>
-          </div>
-        </div>
-        <!-- cards -->
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-md-3">
-            <figure>
-              <img src="img/21.jpg" alt="">
-              <figcaption>
-                <h5 class="mt-3">SEMF UCUK</h5>
-                <p class="mb-3">CEO & FOUNDER</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-lg-3 col-sm-6 col-md-3">
-            <figure>
-              <img src="img/22.jpg" alt="">
-              <figcaption>
-                <h5 class="mt-3">DIK ADALIN</h5>
-                <p class="mb-3">ENGINEERING</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-lg-3 col-sm-6 col-md-3">
-            <figure>
-              <img src="img/23.jpg" alt="">
-              <figcaption>
-                <h5 class="mt-3">JENG KOL</h5>
-                <p class="mb-3">DESIGNER</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-lg-3 col-sm-6 col-md-3">
-            <figure>
-              <img src="img/24.jpg" alt="">
-              <figcaption>
-                <h5 class="mt-3">PET ROMAK</h5>
-                <p class="mb-3">MARKETING</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <!-- button -->
-        <div class="row team-but">
-          <div class="col d-flex flex-column justify-content-center">
-            <p>Become part of our dream team, let’s join us ! </p>
-            <button type="button" class="btn btn-outline-primary mx-auto mt-2">Learn More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- our-works -->
-    <section class="our-works" id="our-works">
-      <div class="container">
-        <div class="row pb-5 our-works__position d-flex justify-content-between">
-          <div class="col-lg-3 col-md-4 col-sm-12 our-works__position">
-            <h1 class="our-works__title">OUR WORKS</h1>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-12 our-works__position">
-            <a href="#" class="our-works__link d-flex">
-              <h6>See All Project in dribbble
-                <i class="fa fa-angle-right pl-1" aria-hidden="true"></i></h6>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- projects -->
-      <div class="container-fluid mb-5">
-        <!-- projects top -->
-        <div class="row">
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-        </div>
-        <!-- projects bottom -->
-        <div class="row">
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/TemnoSire.png" alt="">
-          </div>
-          <div class="col-lg-2 col-sm-4 px-0">
-            <img src="img/Sire.png" alt="">
-          </div>
-        </div>
-      </div>
-      <!-- button -->
-      <div class="container">
-        <div class="row">
-          <div class="col our-works__btn">
-            <button type="button" class="btn btn-outline-primary">Load More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonials -->
-    <section class="testimonials" id="testimonials">
-      <!-- slider -->
-      <div id="carouselExampleIndicators1" class="carousel slide pt-5" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active testimonials__slider-img-1"></li>
-          <li data-target="#carouselExampleIndicators1" data-slide-to="1" class="testimonials__slider-img-2"></li>
-          <li data-target="#carouselExampleIndicators1" data-slide-to="2" class="testimonials__slider-img-3"></li>
-          <li data-target="#carouselExampleIndicators1" data-slide-to="3" class="testimonials__slider-img-4"></li>
-          <li data-target="#carouselExampleIndicators1" data-slide-to="4" class="testimonials__slider-img-5"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="content-center">
-              <p class="mb-5">This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis
-                sem nibh id elit. Duis sed odio sit amet
-                nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec
-                tellus a odio tincidunt auctor a ornare odio.
-                Sed non mauris vitae erat consequat auctor eu in elit.
-              </p>
-              <h5 class="testimonials__name"><strong>KHOLISY MOTHER OF DRAGONS</strong></h5>
-              <h4 class="testimonials__job">SILNAY JENSHINA</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <p class="mb-5">This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis
-                sem nibh id elit. Duis sed odio sit amet
-                nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec
-                tellus a odio tincidunt auctor a ornare odio.
-                Sed non mauris vitae erat consequat auctor eu in elit.
-              </p>
-              <h5 class="testimonials__name"><strong>JOHN SNOW</strong></h5>
-              <h4 class="testimonials__job">BASTARD</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <p class="mb-5">This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis
-                sem nibh id elit. Duis sed odio sit amet
-                nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec
-                tellus a odio tincidunt auctor a ornare odio.
-                Sed non mauris vitae erat consequat auctor eu in elit.
-              </p>
-              <h5 class="testimonials__name"><strong>CERSEI LANNISTER</strong></h5>
-              <h4 class="testimonials__job">MY BROTHER IS MY LOVE</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <p class="mb-5">This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis
-                sem nibh id elit. Duis sed odio sit amet
-                nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec
-                tellus a odio tincidunt auctor a ornare odio.
-                Sed non mauris vitae erat consequat auctor eu in elit.
-              </p>
-              <h5 class="testimonials__name"><strong>JOFFREY BARATHEON</strong></h5>
-              <h4 class="testimonials__job">ALDEBARAN</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content-center">
-              <p class="mb-5">This is Photoshop's version of Lorem Ipsum.
-                Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis
-                sem nibh id elit. Duis sed odio sit amet
-                nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec
-                tellus a odio tincidunt auctor a ornare odio.
-                Sed non mauris vitae erat consequat auctor eu in elit.
-              </p>
-              <h5 class="testimonials__name"><strong>ARYA STARK</strong></h5>
-              <h4 class="testimonials__job">BEZLIKAY</h4>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-    <!-- contact -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="row">
-          <!-- form left -->
-          <div class="col-lg-6 padding">
-            <h1 class="pb-3">GIVE US A GOOD NEWS</h1>
-            <form action="#" class="d-flex flex-column">
-              <input type="text" placeholder="name" class="name mb-3 px-2">
-              <input type="email" placeholder="Email" class="email mb-3 px-2">
-              <input type="text" placeholder="Subject" class="subject mb-3 px-2">
-              <textarea name="message" id="message" class="message mb-3 px-2" placeholder="Your Massage"></textarea>
-              <button type="button" class="btn btn-outline-primary"><strong>Submit</strong></button>
-            </form>
-          </div>
-          <!-- brands right -->
-          <div class="col-lg-6 pl-lg-5">
-            <h1 class="pb-3 ml-lg-5">OUR HAPPY CLIENT</h1>
-            <div class="contact__brands d-sm-flex">
-              <div class="contact__block-img mb-4 d-flex flex-column align-items-center mx-lg-5">
-                <img src="img/41.png" alt="" class="contact__img-1 mb-5 mt-2">
-                <img src="img/43.png" alt="" class="contact__img-2 mb-5">
-                <img src="img/45.png" alt="" class="contact__img-3 mb-5">
-                <img src="img/47.png" alt="" class="contact__img-4 mb-5">
-                <img src="img/49.png" width="109px" alt="" class="contact__img-5 ">
-              </div>
-              <div class="contact__block-img mb-4 d-flex flex-column align-items-center ml-sm-5">
-                <img src="img/42.png" alt="" class="contact__img-6 mb-5 mt-2">
-                <img src="img/44.png" alt="" class="contact__img-7 mb-5">
-                <img src="img/46.png" alt="" class="contact__img-8 mb-5">
-                <img src="img/48.png" alt="" class="contact__img-9 mb-5">
-                <img src="img/50.png" alt="" class="contact__img-10 ">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </content>
-
-  <!-- footer -->
-  <footer class="footer pb-5" id="footer">
-    <div class="container">
-      <!-- footer items -->
-      <div class="row">
-        <!-- footer left -->
-        <div class="footer__flex col-lg-4">
-          <div class="footer__block-logo">
-            <a href="#">
-              <img src="img/2-layers.png" alt="logo">
-            </a>
-          </div>
-          <p class="footer__text mt-4">
-            lorem quis bibendum auctor,
-            nisi elit consequat ipsum, nec
-            sagittis sem nibh elit.
-            Duis sed odio sit amet
-            auctror a ornare odio non mauris
-            vitae erat in elit
-          </p>
-        </div>
-        <!-- footer center -->
-        <div class="footer__flex col-lg-4">
-          <h1 class="footer__titles mb-lg-5"> <strong>OUR STUDIO</strong> </h1>
-          <div class="footer__about-us d-flex">
-            <div class="icon-nav mr-3">
-              <img src="img/nav.png" alt="">
-            </div>
-            <p class="footer__text">
-              Ruko cucruk, Jl. Radio luar
-              dalem jos No.12 - 13,
-              Kalideres - Jakarta Barat
-              11480 - Indonesia
+        <section class="hero">
+          <div class="hero__content reveal">
+            <span class="hero__eyebrow">Нова естетика стоматології</span>
+            <h1 class="hero__title">Технологічна турбота про вашу посмішку</h1>
+            <p class="hero__text">
+              Digital Dental Studio поєднує 3D-діагностику, авторські протоколи та сервіс преміум-класу. Від першої
+              консультації до фінального штриху ми проєктуємо впевненість у дзеркалі.
             </p>
-          </div>
-          <div class="footer__phone d-flex">
-            <div class="icon-phone mr-3">
-              <img src="img/tell.png" alt="">
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#contact">Записатися онлайн</a>
+              <a class="btn btn--ghost" href="#technology">Подивитись як це працює</a>
             </div>
-            <p class="footer__text">
-              +38(050)-010-22-14
-            </p>
+            <div class="hero__stats">
+              <div class="stat-card">
+                <span class="stat-card__value">+9800</span>
+                <span class="stat-card__label">усмішок створено</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-card__value">4.98</span>
+                <span class="stat-card__label">рейтинг пацієнтів</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-card__value">15</span>
+                <span class="stat-card__label">років експертизи</span>
+              </div>
+            </div>
+            <div class="hero__badges">
+              <div class="badge-card">
+                <span>Цифровий дизайн посмішки</span>
+                <p>Знаємо результат до старту лікування</p>
+              </div>
+              <div class="badge-card">
+                <span>Comfort-first</span>
+                <p>Неймовірно м'який сервіс і атмосфера</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__visual reveal">
+            <div class="hero__visual-inner">
+              <canvas id="toothCanvas" aria-label="3D модель зуба"></canvas>
+              <div class="floating-card floating-card--primary">
+                <strong>Сканування iTero</strong>
+                <span>Оцифрування усмішки за 5 хв</span>
+              </div>
+              <div class="floating-card floating-card--ghost">
+                <strong>AI планування</strong>
+                <span>Прогноз руху зубів у реальному часі</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__decor">
+            <div class="hero__orb hero__orb--primary"></div>
+            <div class="hero__orb hero__orb--accent"></div>
+            <div class="hero__gradient"></div>
+          </div>
+        </section>
+
+        <div class="trust reveal">
+          <span class="trust__label">Нам довіряють</span>
+          <div class="trust__logos" aria-label="Партнери та виробники">
+            <span>Invisalign®</span>
+            <span>iTero™</span>
+            <span>SIRONA</span>
+            <span>Dental Wings</span>
+            <span>Planmeca</span>
           </div>
         </div>
-        <!-- footer right -->
-        <div class="footer__flex col-lg-4">
-          <h1 class="footer__titles mb-5"><strong>STAY IN TOUCH</strong></h1>
-          <div class="footer-send-message d-flex">
-            <input class="footer__input px-2 mr-2" type="text" placeholder="Subscribe our newsletter">
-            <button class="tellegram"><img src="img/telega.png" alt="send"></button>
+      </header>
+
+      <main>
+        <section class="section about" id="about">
+          <div class="section__container">
+            <div class="about__visual reveal">
+              <div class="about__image">
+                <img src="img/24.jpg" alt="Сучасна стоматологічна клініка DENTAL" />
+                <div class="about__overlay">
+                  <span>ISO 13485</span>
+                  <p>Медичні протоколи світового рівня</p>
+                </div>
+              </div>
+              <div class="about__card">
+                <h3>360° турбота</h3>
+                <p>Персональний координатор лікування та спільний чат з лікарями.</p>
+              </div>
+            </div>
+            <div class="section__content reveal">
+              <span class="section__eyebrow">Про клініку</span>
+              <h2 class="section__title">Створюємо майбутнє стоматології у центрі Києва</h2>
+              <p>
+                Ми перетворили стоматологічний візит на естетичний досвід. Наші кабінети — це міні-лабораторії з CAD/CAM
+                комплексами, 3D-сканерами та мікроскопами. Кожен план лікування проєктується командою експертів і
+                презентується у цифровій вітрині.
+              </p>
+              <div class="about__grid">
+                <article>
+                  <h3>Авторські протоколи</h3>
+                  <p>Індивідуальні сценарії для естетики, ортодонтії та хірургії.</p>
+                </article>
+                <article>
+                  <h3>Well-being простір</h3>
+                  <p>Арома-терапія, музика та VR-релакс для чутливих пацієнтів.</p>
+                </article>
+                <article>
+                  <h3>Гнучкі графіки</h3>
+                  <p>Вечірні та ранкові сесії, супровід 24/7 у месенджері.</p>
+                </article>
+                <article>
+                  <h3>Команда експертів</h3>
+                  <p>Ортодонти, хірурги, гігієністи та естетисти працюють синхронно.</p>
+                </article>
+              </div>
+            </div>
           </div>
-          <div class="footer__icons d-flex justify-content-between mt-4">
-            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-dribbble fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+        </section>
+
+        <section class="section highlights">
+          <div class="section__container">
+            <div class="highlights__grid">
+              <div class="highlight-card reveal">
+                <span>01</span>
+                <h3>Діагностика в один дотик</h3>
+                <p>Цифрові відбитки, фотопротокол та КТ за 30 хвилин.</p>
+              </div>
+              <div class="highlight-card reveal">
+                <span>02</span>
+                <h3>Прозорі плани лікування</h3>
+                <p>Візуалізація результату, графік візитів і фінансів у мобільному додатку.</p>
+              </div>
+              <div class="highlight-card reveal">
+                <span>03</span>
+                <h3>Іммерсивний сервіс</h3>
+                <p>Лаунж-бар, hi-fi звук, індивідуальні кіно-сесії під час процедур.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section services" id="services">
+          <div class="section__container">
+            <div class="section__header reveal">
+              <span class="section__eyebrow">Послуги</span>
+              <h2 class="section__title">Комплексні рішення для посмішки мрії</h2>
+              <p>
+                Об'єднуємо ортодонтію, естетичні трансформації, хірургію та профілактику в єдину дорожню карту, що
+                підлаштовується під ваш стиль життя.
+              </p>
+            </div>
+            <div class="services__grid">
+              <article class="service-card reveal">
+                <h3>Естетика &amp; вініри</h3>
+                <p>Композитні й керамічні рішення, підбір кольору та форми з дизайнером посмішок.</p>
+                <span>Digital Smile Design</span>
+              </article>
+              <article class="service-card reveal">
+                <h3>Ортодонтія без брекетів</h3>
+                <p>Прозорі елайнери з AI-плануванням, контроль руху зубів у реальному часі.</p>
+                <span>Invisalign® Platinum</span>
+              </article>
+              <article class="service-card reveal">
+                <h3>Мікроскопічна терапія</h3>
+                <p>Лікування каналів, профілактика та ремінералізація без болю та страху.</p>
+                <span>ZEISS Extaro 300</span>
+              </article>
+              <article class="service-card reveal">
+                <h3>Імплантація &amp; хірургія</h3>
+                <p>Навігаційні операції, миттєві тимчасові коронки, PRF-регенерація тканин.</p>
+                <span>3D-гід CEREC</span>
+              </article>
+              <article class="service-card reveal">
+                <h3>Дитяча стоматологія</h3>
+                <p>Адаптаційні візити, турбота з психологом, герметизація фісур та ортодонтія.</p>
+                <span>Kids Friendly</span>
+              </article>
+              <article class="service-card reveal">
+                <h3>Dental wellness</h3>
+                <p>Професійна чистка, AirFlow, кабінетне відбілювання та догляд з нутриціологом.</p>
+                <span>Signature Care</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section experience">
+          <div class="section__container">
+            <div class="experience__content reveal">
+              <span class="section__eyebrow">Шлях пацієнта</span>
+              <h2 class="section__title">Від першого дзвінка до wow-результату</h2>
+              <p>
+                Наші куратори супроводжують кожен етап лікування, синхронізуючи команду лікарів і ваш графік. За допомогою
+                додатку ви контролюєте прогрес і підтримуєте зв'язок 24/7.
+              </p>
+              <ul class="experience__steps">
+                <li>
+                  <span>01</span>
+                  <div>
+                    <h3>Знайомство &amp; аналітика</h3>
+                    <p>3D-скан, фотопротокол, консультація провідного лікаря.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>02</span>
+                  <div>
+                    <h3>Презентація плану</h3>
+                    <p>VR-візуалізація варіантів усмішки, фіксація бюджету та графіку.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>03</span>
+                  <div>
+                    <h3>Лікування &amp; супровід</h3>
+                    <p>Контрольні чекпоінти, чат з лікарями, персональний after-care.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="experience__media reveal">
+              <div class="experience__glass">
+                <h3>Concierge Dental</h3>
+                <p>Преміум-запис, трансфери та VIP-зали для міжнародних пацієнтів.</p>
+                <button class="btn btn--ghost" type="button">Отримати програму</button>
+              </div>
+              <div class="experience__card">
+                <h4>Сервіси</h4>
+                <ul>
+                  <li>Персональний менеджер</li>
+                  <li>План лікування у додатку</li>
+                  <li>Фінансування 0%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section pricing" id="pricing">
+          <div class="section__container">
+            <div class="section__header reveal">
+              <span class="section__eyebrow">Калькулятор вартості</span>
+              <h2 class="section__title">Розрахуйте ваш індивідуальний план лікування</h2>
+              <p>
+                Оберіть напрям, рівень складності та додаткові сервіси. Калькулятор миттєво сформує орієнтовний бюджет і
+                таймлайн лікування.
+              </p>
+            </div>
+            <div class="pricing__layout">
+              <form class="pricing-calculator reveal" id="pricingCalculator">
+                <fieldset>
+                  <legend>Напрям лікування</legend>
+                  <div class="option-list">
+                    <label class="option-card">
+                      <input type="radio" name="treatment" value="diagnostics" checked />
+                      <div class="option-card__content">
+                        <h3>Цифрова діагностика</h3>
+                        <p>Відбитки, фотопротокол та план лікування з AI-аналітикою.</p>
+                        <span>від ₴ 1 800</span>
+                      </div>
+                    </label>
+                    <label class="option-card">
+                      <input type="radio" name="treatment" value="aesthetics" />
+                      <div class="option-card__content">
+                        <h3>Естетична стоматологія</h3>
+                        <p>Вініри, реставрації та відбілювання з дизайнером посмішок.</p>
+                        <span>від ₴ 6 800</span>
+                      </div>
+                    </label>
+                    <label class="option-card">
+                      <input type="radio" name="treatment" value="orthodontics" />
+                      <div class="option-card__content">
+                        <h3>Ортодонтія</h3>
+                        <p>Елайнери або брекети з цифровим моделюванням результату.</p>
+                        <span>від ₴ 32 000</span>
+                      </div>
+                    </label>
+                    <label class="option-card">
+                      <input type="radio" name="treatment" value="surgery" />
+                      <div class="option-card__content">
+                        <h3>Імплантація та хірургія</h3>
+                        <p>Навігаційні операції з миттєвим протезуванням.</p>
+                        <span>від ₴ 18 500</span>
+                      </div>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Рівень складності</legend>
+                  <div class="slider">
+                    <input type="range" id="complexity" name="complexity" min="1" max="3" step="1" value="1" />
+                    <div class="slider__bubble" data-slider-value>Легка</div>
+                  </div>
+                  <p class="slider__hint">Складність визначає кількість візитів, використання лабораторії та тривалість.</p>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Додаткові опції</legend>
+                  <div class="addon-list">
+                    <label class="addon-card">
+                      <input type="checkbox" name="addons" value="sedation" />
+                      <span>Седація для комфорту</span>
+                      <strong>₴ 1 900</strong>
+                    </label>
+                    <label class="addon-card">
+                      <input type="checkbox" name="addons" value="expressLab" />
+                      <span>Експрес-лабораторія</span>
+                      <strong>₴ 4 500</strong>
+                    </label>
+                    <label class="addon-card">
+                      <input type="checkbox" name="addons" value="wellness" />
+                      <span>Преміум догляд</span>
+                      <strong>₴ 1 200</strong>
+                    </label>
+                    <label class="addon-card">
+                      <input type="checkbox" name="addons" value="guarantee" />
+                      <span>Розширена гарантія</span>
+                      <strong>₴ 2 400</strong>
+                    </label>
+                  </div>
+                </fieldset>
+              </form>
+              <aside class="pricing-summary reveal">
+                <div class="pricing-summary__card">
+                  <span class="pricing-summary__label">Орієнтовна вартість</span>
+                  <strong class="pricing-summary__price" data-price>₴ 1 800</strong>
+                  <p data-duration>Тривалість плану: 1 візит</p>
+                  <p data-complexity-label>Складність: Легка</p>
+                  <ul data-breakdown></ul>
+                  <button class="btn btn--primary" type="button">Отримати точний кошторис</button>
+                </div>
+                <div class="pricing-summary__note">
+                  <p>Фінальна ціна формується після клінічної консультації та діагностики.</p>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section technology" id="technology">
+          <div class="section__container">
+            <div class="technology__media reveal">
+              <div class="technology__badge">100% цифровий процес</div>
+              <div class="technology__panel">
+                <h3>Lab-in-clinic</h3>
+                <p>Власна лабораторія CEREC з 3D-принтерами для моментального виготовлення реставрацій.</p>
+              </div>
+              <div class="technology__panel">
+                <h3>AI-аналіз</h3>
+                <p>Алгоритми прогнозують результат і пропонують найефективніший шлях лікування.</p>
+              </div>
+            </div>
+            <div class="section__content reveal">
+              <span class="section__eyebrow">Технології</span>
+              <h2 class="section__title">Цифрове ядро з людяним підходом</h2>
+              <p>
+                Наша клініка повністю інтегрована в єдину цифрову екосистему — від 3D-сканування до фінального дизайну
+                посмішки. Пацієнти отримують доступ до персонального кабінету з AR-моделюванням та рекомендаціями з догляду.
+              </p>
+              <div class="technology__list">
+                <div>
+                  <strong>3D-моделювання</strong>
+                  <span>Цифрові макети та тест-драйв усмішки до старту лікування.</span>
+                </div>
+                <div>
+                  <strong>Мікроскопічна точність</strong>
+                  <span>ZEISS мікроскопи для бездоганної естетики та здоров'я.</span>
+                </div>
+                <div>
+                  <strong>Система без болю</strong>
+                  <span>Анестезія The Wand, седація та VR-дистракція.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonials" id="testimonials">
+          <div class="section__container">
+            <div class="section__header reveal">
+              <span class="section__eyebrow">Відгуки</span>
+              <h2 class="section__title">Пацієнти про свої трансформації</h2>
+              <p>Реальні історії людей, які довірили нам усмішку та повернули впевненість.</p>
+            </div>
+            <div class="testimonials__slider">
+              <button class="slider-btn" data-direction="prev" aria-label="Попередній відгук"></button>
+              <div class="testimonial-card reveal">
+                <div class="testimonial-card__header">
+                  <div class="avatar">AL</div>
+                  <div>
+                    <h3>Аліна Л.</h3>
+                    <span>Digital Smile Design</span>
+                  </div>
+                </div>
+                <p>
+                  Вражена сервісом! Мені показали кілька варіантів усмішки у VR, і я обрала той, що ідеально підійшов.
+                  Лікування пройшло супер комфортно, а результат — вау.
+                </p>
+                <div class="rating">★★★★★</div>
+              </div>
+              <div class="testimonial-card reveal">
+                <div class="testimonial-card__header">
+                  <div class="avatar">DM</div>
+                  <div>
+                    <h3>Дмитро М.</h3>
+                    <span>Ортодонтичне лікування</span>
+                  </div>
+                </div>
+                <p>
+                  За допомогою елайнерів я виправив прикус, навіть будучи за кордоном. У застосунку бачив кожен етап і
+                  спілкувався з ортодонтом. Професійно й турботливо.
+                </p>
+                <div class="rating">★★★★★</div>
+              </div>
+              <div class="testimonial-card reveal">
+                <div class="testimonial-card__header">
+                  <div class="avatar">MS</div>
+                  <div>
+                    <h3>Марина С.</h3>
+                    <span>Комплексне лікування</span>
+                  </div>
+                </div>
+                <p>
+                  Лікарі пояснили план лікування простими словами, а координатор завжди був на зв'язку. Відчувається
+                  увага до деталей і душевність.
+                </p>
+                <div class="rating">★★★★★</div>
+              </div>
+              <button class="slider-btn" data-direction="next" aria-label="Наступний відгук"></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section faq">
+          <div class="section__container">
+            <div class="section__header reveal">
+              <span class="section__eyebrow">FAQ</span>
+              <h2 class="section__title">Найчастіші запитання</h2>
+              <p>Підготували відповіді, щоб ви відчували максимальну впевненість перед візитом.</p>
+            </div>
+            <div class="faq__grid">
+              <div class="faq__item reveal">
+                <button class="faq__trigger" type="button">Чи боляче проходить лікування?</button>
+                <div class="faq__content">
+                  <p>
+                    Ми застосовуємо комп'ютерну анестезію The Wand, седацію та VR-дистракцію. Пацієнти описують процедури як
+                    максимально комфортні.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item reveal">
+                <button class="faq__trigger" type="button">Скільки триває перша консультація?</button>
+                <div class="faq__content">
+                  <p>
+                    До 60 хвилин. За цей час ми проводимо 3D-скан, фотосесію, збираємо анамнез та презентуємо попередній план
+                    лікування.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item reveal">
+                <button class="faq__trigger" type="button">Чи можна лікуватись у розстрочку?</button>
+                <div class="faq__content">
+                  <p>
+                    Так, ми пропонуємо безвідсоткові програми до 12 місяців, а також гнучкі графіки оплат під ваш бюджет.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item reveal">
+                <button class="faq__trigger" type="button">Чи приймаєте ви дітей?</button>
+                <div class="faq__content">
+                  <p>
+                    Так, у нас є окрема дитяча студія з психологом, адаптаційними візитами та програмою лояльності для
+                    батьків.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="section__container">
+            <div class="contact__info reveal">
+              <span class="section__eyebrow">Контакти</span>
+              <h2 class="section__title">Заплануйте консультацію</h2>
+              <p>Надішліть заявку, і координатор підбере зручний час візиту та розкаже про програми лікування.</p>
+              <ul class="contact__list">
+                <li><strong>Телефон:</strong> <a href="tel:+380441112233">+38 (044) 111 22 33</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hello@dental.ua">hello@dental.ua</a></li>
+                <li><strong>Адреса:</strong> вул. Сміливих 10, Київ</li>
+                <li><strong>Графік:</strong> Пн–Сб 09:00–21:00, Нд за записом</li>
+              </ul>
+            </div>
+            <div class="contact__form reveal">
+              <form class="appointment__form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Ім'я</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше ім'я" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+38 (0__) ___ __ __" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="service">Послуга</label>
+                  <select id="service" name="service" required>
+                    <option value="" selected disabled>Оберіть послугу</option>
+                    <option value="consultation">Початкова консультація</option>
+                    <option value="orthodontics">Ортодонтія</option>
+                    <option value="aesthetic">Естетична стоматологія</option>
+                    <option value="surgery">Хірургія</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Коментар</label>
+                  <textarea id="message" name="message" rows="3" placeholder="Опишіть бажаний результат"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Надіслати заявку</button>
+                <p class="form-note">Надсилаючи форму, ви погоджуєтеся з політикою конфіденційності.</p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__brand">
+            <span class="nav__logo">D</span>
+            <span class="nav__text">Dental</span>
+            <p>Синергія технологій, сервісу та естетики для бездоганної усмішки.</p>
+          </div>
+          <div class="footer__links">
+            <h4>Навігація</h4>
+            <a href="#about">Про нас</a>
+            <a href="#services">Послуги</a>
+            <a href="#technology">Технології</a>
+          </div>
+          <div class="footer__links">
+            <h4>Сервіси</h4>
+            <a href="#pricing">Калькулятор</a>
+            <a href="#testimonials">Відгуки</a>
+            <a href="#contact">Контакти</a>
+          </div>
+          <div class="footer__cta">
+            <h4>Приєднатись</h4>
+            <p>Пн–Сб: 09:00 – 21:00<br />Нд: за попереднім записом</p>
+            <a class="btn btn--ghost" href="#contact">Записатися</a>
           </div>
         </div>
-      </div>
-      <!-- footer copyright -->
-      <div class="row mt-5">
-        <div class="col-lg-5 footer__links">
-          <a href="#">HELP</a>
-          <a href="#">TERMS & CONDITION</a>
-          <a href="#" class="mr-0">PRIVACY</a>
+        <div class="footer__bottom">
+          <p>© 2024 DENTAL. Всі права захищені.</p>
         </div>
-        <div class="col-lg-4 footer__copyright ml-lg-auto">
-          <p class="footer__text mb-0">Copyright © 2018 - Likhovskyi Dima.</p>
-        </div>
-      </div>
+      </footer>
     </div>
-  </footer>
 
-  <!-- add bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <!-- add js -->
-  <script src="js/script.js"></script>
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="js/script.js" type="module"></script>
+  </body>
 </html>
